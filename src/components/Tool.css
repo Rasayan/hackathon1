@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800&family=Poppins:wght@400;500&display=swap');
+
+::placeholder {
+    font-family: 'Inter', sans-serif;
+    margin-left: 0.5em;
+    color: #fff;
+}
+
+.toolSection {
+    width: 100%;
+    height: 95.76vh;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolForm {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form {
+    width: 160%;
+    height: 5vh;
+    padding: 0.7%;
+    border-radius: 12px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#toolFormInput {
+    display: inline;
+    height: 95%;
+    width: 81%;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+    border: none;
+    background-color: #242424;
+    color: #fff;
+}
+
+#toolFormButt {
+    padding: 0.8em 0;
+    width: 20%;
+    border-radius: 0 8px 8px 0;
+    border: none;
+    font-weight: 700;
+    background-color: #242424;
+    color: #fff;
+}
+
+#goBackButt {
+    padding: 0.3em 3em;
+    border-radius: 8px;
+    border: none;
+    margin-left: 1em;
+    font-weight: 700;
+    background-color: #242424;
+    color: #fff;
+}
+
+.details {
+    width: 90%;
+    height: 60vh;
+    background-color: #242424;
+    border-radius: 10px;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+#cityDetails h2,
+#cityDetails h3 {
+    color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+}
+
+#cityDetails h3 {
+    font-weight: 500;
+}
+
+#airQuality {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.custom-loader {
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background:#37ff00;
+    -webkit-mask:
+      repeating-conic-gradient(#0000 0deg,#000 1deg 70deg,#0000 71deg 90deg),
+      radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 calc(100% - 8px));
+    -webkit-mask-composite: destination-in;
+    mask-composite: intersect;
+    animation:s5 2s infinite ;
+  }
+  @keyframes s5 {to{transform: rotate(.5turn)}}
+
+  #aqiusAir {
+    font-size: 1.9em;
+    position: relative;
+    top: -2.6em;
+    right: -0.48em;
+    color: azure;
+  }
+
+  .weatherDet {
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+  }

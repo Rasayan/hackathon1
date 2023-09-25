@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800&family=Poppins:wght@400;500&display=swap');
+
+.homeSection {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeContent {
+    width: 100%;
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeContent h2 {
+    font-size: 2.1em;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+.homeContent h3 {
+    font-size: 2.9em;
+    margin: 0;
+    margin-bottom: 1em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;
+}
+
+.homeButt {
+    padding: 0.8em 2.5em;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+}
